@@ -1,13 +1,19 @@
+let dim = 80.0;
+
 function setup() {
-  createCanvas(x, y);
+  createCanvas(710, 400, WEBGL);
 }
 
 function draw() {
-  background(0);
-  if (mouseIsPressed) {
-    fill(0);
-  } else {
-    fill(255);
-  }
-  ellipse(mouseX, mouseY, 50, 50);
+  background(100);
+
+  noFill();
+  stroke(255);
+  push();
+  translate(0, 0);
+  rotateY(rotacaoY);
+  rotateX(rotacaoX);
+  box(200);
+  pop();
+
 }

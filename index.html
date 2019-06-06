@@ -6,15 +6,16 @@
     <script src="sketch.js"></script>
 </head>
 <body>
-    <button onclick="startSketch();">
-        Start</button>
+    rotacionar em X: <input type="number" id="rx" onchange="startSketch()"><br>
+    rotacionar em Y: <input type="number" id="ry" onchange="startSketch()"><br>
+    
     <script type="application/javascript">
-        var x = 800;
-        var y = 400;
+        let rotacaoX = 0;
+        let rotacaoY = 0;
 
         function startSketch() {
-            x = 400;
-            y = 200;
+            rotacaoX = document.getElementById('rx').value;
+            rotacaoY = document.getElementById('ry').value;
             setup();
             draw();
         }   
