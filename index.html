@@ -15,26 +15,33 @@
 </head>
 <body>
     <div class="container-fluid">
-        <h3>COMPUTAÇÃO GRÁFICA - MANIPULANDO OBJETO 3D</h3>
+        <div align="center">
+            <h3>COMPUTAÇÃO GRÁFICA - MANIPULANDO OBJETO 3D</h3>
+        </div>
         <div class="row">
-            <div class="col-sm">
-                <h4>ROTAÇÃO</h4>
-                Rotacionar em X: <input class="form-control form-control-sm" type="number" id="rx" step=".05" value="0" onchange="rotacao()"><br>
-                Rotacionar em Y: <input class="form-control form-control-sm" type="number" id="ry" step=".05" value="0" onchange="rotacao()"><br>
+            <div class="col-sm-3">
+                <h6>ROTAÇÃO</h6>
+                Rotacionar em X: <input class="form-control form-control-sm" type="number" id="rx" step=".05" value="0" onchange="rotacao()">
+                Rotacionar em Y: <input class="form-control form-control-sm" type="number" id="ry" step=".05" value="0" onchange="rotacao()">
                 Rotacionar em Z: <input class="form-control form-control-sm" type="number" id="rz" step=".05" value="0" onchange="rotacao()"><br>
             </div>
-            <div class="col-sm">
-                <h4>TRANSLAÇÃO</h4>
-                Transladar em X: <input class="form-control form-control-sm" type="number" id="tx" step="10.0" value="0" onchange="translacao()"><br>
-                Transladar em Y: <input class="form-control form-control-sm" type="number" id="ty" step="10.0" value="0" onchange="translacao()"><br>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h6>TRANSLAÇÃO</h6>
+                Transladar em X: <input class="form-control form-control-sm" type="number" id="tx" step="10.0" value="0" onchange="translacao()">
+                Transladar em Y: <input class="form-control form-control-sm" type="number" id="ty" step="10.0" value="0" onchange="translacao()">
                 Transladar em Z: <input class="form-control form-control-sm" type="number" id="tz" step="10.0" value="0" onchange="translacao()"><br>
             </div>
-            <div class="col-sm">
-                <h4>ESCALAR</h4>
-                Escalar em X: <input class="form-control form-control-sm"  type="number" id="ex" step=".05" value="0" onchange="escalar()"><br>
-                Escalar em Y: <input class="form-control form-control-sm"  type="number" id="ey" step=".05" value="0" onchange="escalar()"><br>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h6>ESCALAR</h6>
+                Escalar em X: <input class="form-control form-control-sm"  type="number" id="ex" step=".05" value="0" onchange="escalar()">
+                Escalar em Y: <input class="form-control form-control-sm"  type="number" id="ey" step=".05" value="0" onchange="escalar()">
                 Escalar em Z: <input class="form-control form-control-sm"  type="number" id="ez" step=".05" value="0" onchange="escalar()"><br>
             </div>
+        </div>
         </div>
     </div>
 </body>
