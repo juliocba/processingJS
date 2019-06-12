@@ -18,6 +18,14 @@ function rotacao() {
     rotacaoX = $('#rx').val();
     rotacaoY = $('#ry').val();
     rotacaoZ = $('#rz').val();
+}
+
+function rotacaoGrau() {
+    const angulo = document.getElementById('angulo-select').value;
+    console.log(angulo);
+    rotacaoX = angulo;
+    rotacaoY = $('#ry').val();
+    rotacaoZ = $('#rz').val();
 }   
 
 function translacao() {
