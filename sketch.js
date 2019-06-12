@@ -1,8 +1,8 @@
 function setup() {
-  var cnv = createCanvas(800, 500, WEBGL);
-  var x = (windowWidth - width) / 1.5;
-  var y = (windowWidth - width) / 5.5;
-  cnv.position(640, 116);
+  var cnv = createCanvas(800, 600, WEBGL);
+  var x = (windowWidth - width) / 1.35;
+  var y = (windowWidth - width) / 7;
+  cnv.position(x, y);
   noStroke();
 }
 
